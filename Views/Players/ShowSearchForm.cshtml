@@ -1,0 +1,20 @@
+﻿<h4>Search for a Player by Name, Surname, Team or Country</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <p>Feel free to type in whatever you're looking for!</p>
+        <form asp-action="ShowSearchResults">
+            <div class="form-group">
+                <label for="SearchPhrase" class="control-label"></label>
+                <input name="SearchPhrase" class="form-control" placeholder="e.g. USA"/>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Search" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
