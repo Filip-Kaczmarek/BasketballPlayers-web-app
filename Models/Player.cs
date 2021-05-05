@@ -21,7 +21,7 @@ namespace BasketballPlayers.Models
         public string Position { get; set; }
 
         [Display(Name = "Date of birth")]
-        [DisplayFormat(ApplyFormatInEditMode=true, DataFormatString = "{0:dd.MM.yyyy}")]
+        [DisplayFormat(ApplyFormatInEditMode = true, DataFormatString = "{0:dd.MM.yyyy}")]
         public DateTime? DateOfBirth { get; set; }
 
         public Player()
